@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    },
+    "pretty": true,
+    "removeComments": false,
+    "reactNamespace": "",
+    "skipLibCheck": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "noImplicitReturns": false,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "downlevelIteration": true,
+    "jsx": "react",
+    "allowJs": true,
+    "types": [
+      "lodash",
+      "react",
+      "react-dom",
+      "webpack-env",
+      "node"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./declarations.d.ts",
+    "./custom.d.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
