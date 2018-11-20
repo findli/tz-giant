@@ -1,0 +1,6 @@
+yarn*
+front/node_modules
+front/dist/*
+!front/dist/index.html
+*.iml
+.idea
