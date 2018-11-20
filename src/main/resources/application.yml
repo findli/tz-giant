@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: tz-giant
+server:
+  port: 9000
+app:
+  giantCliPath: /bin
+  giantConfFilePath: /home/user/.giant/giant.conf
+graphql:
+  servlet:
+    mapping: /graphql
+    corsEnabled: true
+    enabled: true
+    subscriptions:
+      websocket:
+        path: /subscriptions
+
