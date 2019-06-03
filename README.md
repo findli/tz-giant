@@ -22,3 +22,11 @@ rt=dt_socket,server=y,suspend=y,address=8001" -X`
 
 Burtovoy Ian.
 skype: yanchik366
+
+
+Нужно написать приложение на Spring Boot, которое интегрируется с консольной утилитой giant-cli (https://github.com/GiantPay/GiantCore/releases/tag/1.2.2.1 выбор ОС на Ваше усмотрение). Приложение должно отобразить на web странице (http://localhost:8080) номер и сложность последнего блока блокчейна Giant. Страница должна обновляться без перезагрузки раз в 5 минут и показывать актуальные значения.
+	Документация по утилите giant-cli:
+Метод для получения последнего номера блока giant-cli getblockcount
+Метод для получения хеша блока по номеру giant-cli getblockhash :height
+Метод для получения данных блока по хешу giant-cli getblock :hash
+Для реализации используйте в первую очередь следующие инструменты и библиотеки: Spring, Spring Boot.
